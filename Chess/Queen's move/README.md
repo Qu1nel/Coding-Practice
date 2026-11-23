@@ -1,30 +1,24 @@
-# Queen's move
+# Queen's Move
 
-Two different squares of the chessboard are given. You need to write a program that determines whether the queen can get from the first square to the second one in one move. The program receives 4 numbers as input, specifying 2 coordinates of the cells. The program should output "YES" if the queen can get from the first cell to the second one in one move, "NO" otherwise.
+## Problem
 
-### Input data:
+On an empty 8 × 8 chessboard, determine whether a queen can move between two distinct squares in one move. Read four integers `x1 y1 x2 y2` from 1 to 8. Print `YES` if the move is possible and `NO` otherwise.
 
-Four numbers from 1 to 8.
+## Idea
 
-### Output data:
+Compute the absolute differences `dx = |x2 − x1|` and `dy = |y2 − y1|`. The squares share a column when `dx = 0`, a row when `dy = 0`, or a diagonal when `dx = dy`. Each case gives the queen a straight path on the empty board.
 
-The program should output the text according to the problem condition.
+## Complexity
 
-<br /><br />
+The solution takes `O(1)` time and `O(1)` extra space.
 
-<div align="center">
+## Examples
 
-|     | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1   | .   | .   | .   | O   | .   | O   | .   | O   |
-| 2   | .   | .   | .   | .   | O   | O   | O   | .   |
-| 3   | O   | O   | O   | O   | O   | Q   | O   | O   |
-| 4   | .   | .   | .   | .   | O   | O   | O   | .   |
-| 5   | .   | .   | .   | O   | .   | O   | .   | O   |
-| 6   | .   | .   | O   | .   | .   | O   | .   | .   |
-| 7   | .   | O   | .   | .   | .   | O   | .   | .   |
-| 8   | O   | .   | .   | .   | .   | O   | .   | .   |
+| Input | Output | Move |
+|---|---|---|
+| `5 2 5 8` | `YES` | Vertical |
+| `6 5 2 5` | `YES` | Horizontal |
+| `1 1 2 2` | `YES` | Diagonal |
+| `1 1 2 3` | `NO` | Unreachable in one move |
 
-</div>
-
-[Test data](./tests.txt)
+[Python solution](solution.py) · [Test cases](tests.txt)

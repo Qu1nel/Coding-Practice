@@ -1,40 +1,31 @@
-<img src="https://img.shields.io/github/license/Qu1nel/LeetCode-like?color=g" alt="License" />
-<img src="https://img.shields.io/github/languages/count/Qu1nel/LeetCode-like?color=purple" alt="Count of Languages" />
+# Coding-Practice
 
-# About LeetCode-like
+A personal practice journal for programming problems from courses, coding platforms, and other sources. New entries pair the solution with the idea, complexity, and examples.
 
-LeetCode-like Problems' Solutions (or not)\
-This repository stores solutions to various programming tasks from resources such as `leetcode`, `codewars` and many others.
+## Problems
 
-# Contents
+### Chess
 
-- [LeetCode](./LeetCode)
-- [CodeWars](./CodeWars)
-- [Chess](./Chess)
-  - [Knight's move](./Chess/Knight's%20move)
-  - [Queen' move](./Chess/Queen's%20move)
-  - [Kings' move](./Chess/King's%20move)
-  - [Rook' move](./Chess/Rook's%20move)
-  - [Bishop' move](./Chess/Bishop's%20move)
-  - [The chessboard](./Chess/ChessBoard)
-- [Matrix](./Matrix)
-  - [Snail traversal array](./Matrix/Spiral-traversal-array)
-  - [Matrix transponse](./Matrix/Matrix-transpose)
-  - [Multiplication two matrix](./Matrix/Multiplication-two-matrices)
-- [Other](./Other)
-  - [Flatten dict](./Other/Flatten-dict)
-  - [Reverse number](./Other/Reverse-number)
-  - [Arithmetic progression](./Other/Arithmetic-progression)
-  - [Pascal](./Other/Pascal)
+- [Bishop's move](Chess/Bishop%27s%20move/)
+- [Chessboard square colors](Chess/ChessBoard/)
+- [King's move](Chess/King%27s%20move/)
+- [Knight's move](Chess/Knight%27s%20move/)
+- [Queen's move](Chess/Queen%27s%20move/)
+- [Rook's move](Chess/Rook%27s%20move/)
 
+### Matrices
 
-## Developers
+- [Matrix transpose](Matrix/Matrix-transpose/)
+- [Multiply two matrices](Matrix/Multiplication-two-matrices/)
+- [Spiral traversal](Matrix/Spiral-traversal-array/)
 
-- [Qu1nel](https://github.com/Qu1nel)
+### Other
+
+- [Arithmetic progression](Other/Arithmetic-progression/)
+- [Flatten a dictionary](Other/Flatten-dict/)
+- [Pascal's triangle](Other/Pascal/)
+- [Reverse a number](Other/Reverse-number/)
 
 ## License
 
-[MIT](./LICENSE) © [Ivan Kovach](https://github.com/Qu1nel/)
-
-This Project Qu1nel.LeetCode-like in distributive under the **[MIT License](./LICENSE)**, and it also uses those codes that are
-distributed under the **[MIT License](./LICENSE)**.
+[MIT](LICENSE)
